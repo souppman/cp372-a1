@@ -5,7 +5,7 @@ This is a Python-based client-server communication application developed for CP3
 
 ## Group Members
 - Jillian Fernandes
-- Ryan Campbell
+- Ryan Campbell 169073812 
 
 ## Features
 - TCP socket-based client-server communication
@@ -28,32 +28,70 @@ This is a Python-based client-server communication application developed for CP3
 └── Report.pdf
 ```
 
-## Setup Instructions
+## Git Collaboration Guide
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/souppman/cp372-a1.git
-cd cp372-a1
-```
-
-### 2. Git Setup (For Contributors)
+### First Time Setup
 If you're setting up the repository for the first time:
 ```bash
+# Clone the repository
+git clone https://github.com/souppman/cp372-a1.git
+cd cp372-a1
+
+# Configure your Git identity (if not already done)
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+# Add the remote repository
 git remote add origin https://github.com/souppman/cp372-a1.git
-git branch -M main
-git push -u origin main
 ```
 
-### 3. Running the Application
+### Making Changes
+Follow these steps when making changes:
+```bash
+# Get the latest changes
+git pull origin main
 
+# Make your changes to the files
+
+# Check status of your changes
+git status
+
+# Add your changes
+git add .                  # Add all changes
+# OR
+git add specific_file.py   # Add specific file
+
+# Commit your changes
+git commit -m "Descriptive message about your changes"
+
+# Push to repository
+git push origin main
+```
+
+### Common Git Commands
+- `git status`: Check status of your changes
+- `git pull`: Get latest changes from repository
+- `git add`: Stage changes for commit
+- `git commit`: Save your changes locally
+- `git push`: Upload your changes to repository
+- `git log`: View commit history
+
+### Best Practices
+1. Always pull before making changes
+2. Write clear commit messages
+3. Test code before pushing
+
+## Setup Instructions
+
+### Running the Application
 1. Start the server:
 ```bash
-python Server.py
+python server.py
 ```
 
 2. Start a client (in a separate terminal):
 ```bash
-python Client.py
+python client.py
 ```
 
 ## Usage Instructions
@@ -92,6 +130,4 @@ Refer to the Report.pdf for:
 - Implementation details
 - Challenges faced and solutions
 - Potential improvements
-
-## Academic Integrity
-This project adheres to Laurier University Academic Integrity guidelines. Any form of plagiarism will be treated according to university policies. 
+ 

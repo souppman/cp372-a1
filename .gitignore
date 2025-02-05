@@ -1,0 +1,27 @@
+# Python files
+client.py
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Downloaded files from the repository
+repository/*
+!repository/.gitkeep
+
+# Report (until it's ready)
+Report.pdf 
