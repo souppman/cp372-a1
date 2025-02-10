@@ -1,0 +1,8 @@
+Welcome to the CP372 Assignment 1 File Repository!
+
+This is another example file that demonstrates the file transfer capabilities of our client-server application.
+
+Features demonstrated:
+- File listing
+- File streaming
+- Error handling for non-existent files

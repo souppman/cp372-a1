@@ -1,0 +1,12 @@
+Hello! This is a test file in the repository.
+You can access this file using the following commands in the client:
+
+1. Type 'list' to see available files
+2. Type 'get test.txt' to download this file
+
+The server will then stream the file to you.
+
+You can also upload files to the repository using the following commands:
+
+1. Type 'upload test.txt' to upload this file
+2. Type 'list' to see available files

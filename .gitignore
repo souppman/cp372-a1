@@ -22,6 +22,8 @@ Thumbs.db
 # Downloaded files from the repository
 repository/*
 !repository/.gitkeep
+!repository/test.txt
+!repository/welcome.txt
 
 # Report (until it's ready)
 Report.pdf 
